@@ -11,12 +11,11 @@ Keep track of your users password strength and remind them to set a strong passw
 
 == Description ==
 
-This plugin introduces functionality to keep track of the password strength of the users on your WordPress site. When a user
-changes their password, the strength of their current password will show up in the user list. (Existing password strength set
-before plugin activation is not viewable.)
+This plugin introduces functionality to keep track of the password strength of the users on your WordPress site. When a user changes their password, the strength of their current password will show up in the user list. (Existing password strength set before plugin activation is not viewable.)
 
-Users who choose a weak password will be presented with an admin notice urging them to set a stronger password. (The threshold is configurable
-via the `wpa_password_notice_password_strength_less_than_strength` filter.)
+The strength of the password, when it was last changed and by which user will show up on the user profile page.
+
+Users who choose a weak password will be presented with an admin notice urging them to set a stronger password. (The threshold is configurable via the `wpa_password_notice_password_strength_less_than_strength` filter.)
 
 This plugin is multisite compatible and will show up in the network admin users list.
 
