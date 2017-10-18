@@ -1,0 +1,6 @@
+{
+  	"name": "khromov/wp-user-audit",
+    "require": {
+        "bjeavons/zxcvbn-php": "^0.3.0"
+    }
+}
